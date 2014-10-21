@@ -1,143 +1,16 @@
-* <strong>班級　　小組名稱</strong>
-* 資3B　　 NO.4
-* <strong>專題名稱</strong>  Online Rich Man
-<hr>
-
-* <strong>小組成員</strong><br>
-0124004　謝靜儀<br>
-0124008　徐培堯<br>
-0124030　林柏豪<br>
-0124066　涂絖祺<br>
-0124080　徐子涵<br>
-<hr>
-
-<b>專題介紹</b><br>
-線上版之大富翁
-<hr>
-
-<b>專題之需求</b><br>
-用於社交、遊戲
-<hr>
-
-<b>專題之功能</b><br>
-提供多人遊玩，不再只是一個人孤單的進行遊戲，可以透過線上與其他玩家同樂。
-<hr>
-
-<b>事件與使用案例對照表</b><br>
-	<table>
-		<tr>
-			<td>事件名稱</td>
-			<td>使用案例名稱</td>
-		</tr>
-		<tr>
-			<td>建立玩家帳戶</td>
-			<td>使用者於官網註冊且建立一個無人使用過的帳號</td>
-		</tr>
-		<tr>
-			<td>選擇虛擬形象</td>
-			<td>使用者進入遊戲後，選擇其帳號在遊戲中所使用的遊戲人物</td>
-		</tr>
-		<tr>
-			<td>更新客戶端</td>
-			<td>進入遊戲前，送出本地端版本號請求伺服器端驗證是否為最新版</td>
-		</tr>
-		<tr>
-			<td>伺服器資訊取得</td>
-			<td>進入遊戲後透過帳戶資料取得該玩家在遊戲中的所有資訊</td>
-		</tr>
-		<tr>
-			<td>遊戲房資料取得</td>
-			<td>取得目前伺服器中目前遊戲房所有資料</td>
-		</tr>
-		<tr>
-			<td>地圖資料讀取</td>
-			<td>遊戲開始後從伺服器讀取該地圖的編號與其他設定值</td>
-		</tr>
-		<tr>
-			<td>玩家操作通訊</td>
-			<td>傳送遊戲中玩家所做的所有操作，例如購買虛擬寶物或者遊戲中的事件</td>
-		</tr>
-		<tr>
-			<td>玩家聊天訊息</td>
-			<td>玩家可以在遊戲中進行聊天</td>
-		</tr>
-	</table>
-<hr>
-
-<b>主要成功情節</b>
-	<table>
-		<tr>
-			<td>1.當使用者建立一個新帳戶，系統檢查是否重複ID，重複則停留在此畫面，否則繼續往2</td>
-			<td>例外:<br>帳號重複，顯示重複訊息</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>2.客戶端與伺服器進行檢查版本，版本符合則繼續往3</td>
-			<td>例外:<br>如果版本不符:則自伺服器下載最新版主程式</td>
-			<td>例外:<br>下載失敗，顯示網路可能有問題的錯誤訊息</td>
-			<td>例外:<br>如果伺服器無回應，顯示錯誤訊息</td>
-		</tr>
-		<tr>
-			<td>3.使用者進入遊戲選擇一個虛擬形象</td>
-			<td>例外:<br>暱稱重複，顯示重複訊息且停留在本畫面</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>4.伺服器資料取得</td>
-			<td>例外:<br>與伺服器連線失敗訊息或帳戶連線失敗</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>5.遊戲房資料取得</td>
-			<td>例外:<br>找不到現存遊戲房，列表顯示為"目前沒有遊戲房"</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>6.建立遊戲房間</td>
-			<td>..</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>7.進入房間後取得該房間的資訊</td>
-			<td>例外:<br>遭到房主踢出</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>8.選擇遊戲地圖</td>
-			<td>..</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>9.開始進行遊戲，載入遊戲地圖與設定</td>
-			<td>..</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>10.玩家操作通訊</td>
-			<td>..</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>11.遊戲結束，給予個玩家結果</td>
-			<td>..</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-		<tr>
-			<td>12.重複5-11步驟</td>
-			<td>..</td>
-			<td>..</td>
-			<td>..</td>
-		</tr>
-	</table>
-<hr>
-
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-001.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-002.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-003.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-004.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-005.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-006.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-007.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-008.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-009.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-010.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-011.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-012.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-013.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-014.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-015.jpg">
+<img src="ftp://xpy.calfhost.com/httpdocs/Images/%A8t%B2%CE%A4%C0%AAR%BBP%B3%5D%ADp(201410211148)-page-016.jpg">
