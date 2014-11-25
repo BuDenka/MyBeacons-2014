@@ -48,10 +48,10 @@ nkfust_oose_3B_4-TheRich
 ***
 <img src="http://xpy.calfhost.com/Images/Page24.jpg">
 ***
-<img src="http://xpy.calfhost.com/Images/Page25.jpg">
+<img src="http://i.imgur.com/dSKiLk9.jpg">
 ***
-<img src="http://xpy.calfhost.com/Images/Page26.jpg">
+<img src="http://i.imgur.com/TJYrSwG.jpg">
 ***
-<img src="http://xpy.calfhost.com/Images/Page27.jpg">
+<img src="http://i.imgur.com/d9ZYokp.jpg">
 ***
-<img src="http://xpy.calfhost.com/Images/Page28.jpg">
+<img src="http://i.imgur.com/0AxqXfk.jpg">
