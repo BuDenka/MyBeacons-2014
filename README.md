@@ -34,7 +34,7 @@ nkfust_oose_3B_4-TheRich
 ***
 <img src="http://xpy.calfhost.com/Images/Page17.jpg">
 ***
-<img src="https://drive.google.com/file/d/0B8kuWwC9xH-DcmJQVXdjbVBXZFE/view?usp=sharing">
+<img src="http://xpy.calfhost.com/Images/Page18.jpg">
 ***
 <img src="http://xpy.calfhost.com/Images/Page19.jpg">
 ***
