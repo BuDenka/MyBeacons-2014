@@ -58,4 +58,6 @@ nkfust_oose_3B_4-TheRich
 ***
 <img src="http://i.imgur.com/5iHcjnY.jpg">
 ***
-<img src="http://i.imgur.com/yyka1fe.jpg">
+<img src="http://i.imgur.com/N92nCQk.jpg">
+***
+<img src="http://i.imgur.com/tU5OrlX.jpg">
