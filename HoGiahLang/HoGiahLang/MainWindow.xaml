@@ -1,0 +1,54 @@
+﻿<Window xmlns:Map1="clr-namespace:HoGiahLang.Map" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Map="clr-namespace:HoGiahLang.Map"
+        xmlns:Object="clr-namespace:HoGiahLang.Map.Object"
+        xmlns:custom="clr-namespace:HoGiahLang"
+        x:Class="HoGiahLang.MainWindow"
+        Title="逮丸の物語" Height="600" Width="800" Background="#FF22B2E8" 
+     MouseMove="Window_MouseMove" MouseRightButtonDown="MainGrid_MouseRightButtonDown" MouseRightButtonUp="Window_MouseRightButtonUp" MouseLeave="Window_MouseLeave" Activated="Window_Activated">
+    <Grid x:Name="MainGrid" Loaded="Grid_Loaded" MouseMove="Window_MouseMove" MouseRightButtonDown="MainGrid_MouseRightButtonDown" MouseRightButtonUp="Window_MouseRightButtonUp">
+
+        <Map:MapGrid x:Name="MapView" BorderBrush="#51000000"/>
+        <Grid Height="87" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="519">
+            <Grid.Background>
+                <ImageBrush ImageSource="Texture/R面板.png"/>
+            </Grid.Background>
+        </Grid>
+        <Label x:Name="VersionLabel" Content="VERSION INFO" HorizontalAlignment="Left" Margin="558,0,0,0" VerticalAlignment="Top" Width="234" Foreground="White"/>
+        <Grid HorizontalAlignment="Left" Width="268" Height="118" VerticalAlignment="Bottom">
+            <Grid.Background>
+                <ImageBrush ImageSource="Texture/L面板.png"/>
+            </Grid.Background>
+            <Grid HorizontalAlignment="Left" Height="160" Margin="0,-54,0,-16" VerticalAlignment="Bottom" Width="117">
+                <Grid.Background>
+                    <ImageBrush ImageSource="Texture/Shan.png"/>
+                </Grid.Background>
+            </Grid>
+            <Label x:Name="label" Content="User" HorizontalAlignment="Left" Margin="119,10,0,0" VerticalAlignment="Top" FontSize="24"/>
+            <Label x:Name="label1" Content="現金:999999" HorizontalAlignment="Left" Margin="122,42,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label1_Copy" Content="資產:999999" HorizontalAlignment="Left" Margin="122,64,0,0" VerticalAlignment="Top"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="166" VerticalAlignment="Top" Width="342">
+            <Canvas>
+                <custom:PartiallyRoundedRectangle RoundTopLeft="True" 
+                RoundBottomRight="True" RadiusX="20" RadiusY="20"  RoundTopRight="True" RoundBottomLeft="True"
+                Fill="#26000000" Height="192" Width="367" Canvas.Top="-26" Canvas.Left="-25"/>
+                <TextBox x:Name="chat" HorizontalAlignment="Left" Height="156" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Background="#4C444444" Foreground="White" VerticalScrollBarVisibility="Visible" IsEnabled="False"/>
+            </Canvas>
+        </Grid>
+        <Grid Margin="193,0,0,87" Height="27" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="408">
+            <Canvas HorizontalAlignment="Left" Width="408" Margin="0,0,0,513">
+                <custom:PartiallyRoundedRectangle RoundTopLeft="True" 
+                RoundBottomRight="True" RadiusX="20" RadiusY="20"  RoundTopRight="True" RoundBottomLeft="True"
+                Fill="#52000000" Height="26" Width="408" />
+                <Label Content="ENTER送出" Canvas.Left="328" Foreground="#4CFFFFFF" />
+                <TextBox x:Name="Cmd" HorizontalAlignment="Left" Height="20" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="386" PreviewKeyDown="TextBox_PreviewKeyDown" Background="{x:Null}" Foreground="White" TextChanged="Cmd_TextChanged" BorderBrush="{x:Null}" SelectionBrush="#56000000" Canvas.Left="10" Canvas.Top="3"/>
+            </Canvas>
+        </Grid>
+        <Grid x:Name="LoadGrid" Background="#FF22B2E8" Visibility="Collapsed">
+            <Image x:Name="image" Margin="220,115,213,200" Source="Texture/LOGO.png"/>
+            <Label x:Name="label2" Content="資料載入中..." Margin="296,336,298,0" VerticalAlignment="Top" Foreground="White" FontSize="32"/>
+        </Grid>
+    </Grid>
+</Window>
